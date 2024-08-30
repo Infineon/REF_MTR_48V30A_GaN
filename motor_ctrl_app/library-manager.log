@@ -1,0 +1,230 @@
+Loading the ModusToolbox Technology Packs and Early Access Packs
+Finished loading the ModusToolbox Technology Packs and Early Access Packs (28 ms)
+Loading the tools information
+Finished loading the tools information (94 ms)
+Loading the application in directory 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app'
+using cached data from file 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.mtbqueryapi'
+creating application information from 'get_app_info' data
+finished creating application information from 'get_app_info' data (9 ms)
+Finished loading the application data (177 ms total, 0 make)
+Loading asset repository references
+Finished loading the asset repository references (119 ms)
+Loading the manifest data
+Found environment variable CyRemoteManifestOverride=http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml
+Loading super manfiest files from all sources
+Processing manifest loc file 'C:/Users/xiaol/.modustoolbox/manifest.loc'
+Found user super-manifest(s):
+  'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-andromeda-manifests-release/raw/mtb-super-manifest.xml'
+Downloading super manifest file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-andromeda-manifests-release/raw/mtb-super-manifest.xml'
+Processing manifest pack file 'C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifest.xml'
+Downloading super manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifest.xml'
+Getting manifests from remote and/or local sources
+Processing system manifest 'http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml'
+Downloading super manifest file 'http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml'
+Finished loading super manifest files from all sources
+Finished download of file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-andromeda-manifests-release/raw/mtb-super-manifest.xml'
+Starting to parse super manifest with URL 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-andromeda-manifests-release/raw/mtb-super-manifest.xml'
+Finished parsing super manifest with URL 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-andromeda-manifests-release/raw/mtb-super-manifest.xml'
+Downloading manifest file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-app-manifest.xml'
+Downloading manifest file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-bsp-dependencies.xml'
+Downloading manifest file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-lib-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifest.xml'
+Starting to parse super manifest with URL 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifest.xml'
+Finished parsing super manifest with URL 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifest.xml'
+Downloading manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/app-manifest.xml'
+Downloading manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/bsp-manifest.xml'
+Downloading manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/bsp-dependencies-manifest.xml'
+Downloading manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/mw-manifest.xml'
+Downloading manifest file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/mw-dependencies-manifest.xml'
+Finished download of file 'http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml'
+Starting to parse super manifest with URL 'http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml'
+Finished parsing super manifest with URL 'http://git-ore.aus.cypress.com/repo-staging/mtb-super-manifest/-/raw/v2.X/mtb-super-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Downloading manifest file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished download of file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-app-manifest.xml'
+Finished download of file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-bsp-manifest.xml'
+Finished download of file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-bsp-dependencies.xml'
+Finished download of file 'https://bitbucket.vih.infineon.com/projects/ANDROMEDFW/repos/mtb-motor-ctrl-manifests-release/raw/mtb-lib-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/app-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/bsp-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/bsp-dependencies-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/mw-manifest.xml'
+Finished download of file 'file:///C:/Infineon/Tools/ModusToolbox/packs/ModusToolbox-MExT-XMC1-Pack/manifests/mw-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-ce-manifest/raw/v2.X/mtb-ce-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-app-manifest/raw/v2.X/mtb-bt-app-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/cce-app-manifest/raw/v2.X/cce-app-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-capabilities-manifest.json'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bsp-manifest/raw/v2.X/mtb-bsp-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-bsp-manifest/raw/v2.X/mtb-bt-bsp-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-mw-manifest/raw/v2.X/mtb-mw-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-bt-mw-manifest/raw/v2.X/mtb-bt-mw-dependencies-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-manifest-fv2.xml'
+Finished download of file 'https://gitlab.intra.infineon.com/repo-staging/mtb-wifi-mw-manifest/raw/v2.X/mtb-wifi-mw-dependencies-manifest.xml'
+Finished loading the manifest data (5350 ms)
+WARNING:"CYW920829-KEYBOARD" "latest-v1.X" requires "core-make" "release-v3.1.1" which is not present in the manifest data.
+WARNING:"CYW920829-KEYBOARD" "latest-v1.X" requires "recipe-make-cat1b" "release-v2.1.0" which is not present in the manifest data.
+WARNING:"CYW920829-MOUSE" "latest-v1.X" requires "core-make" "release-v3.1.1" which is not present in the manifest data.
+WARNING:"CYW920829-MOUSE" "latest-v1.X" requires "recipe-make-cat1b" "release-v2.1.0" which is not present in the manifest data.
+WARNING:"CYW920829-VR" "latest-v1.X" requires "core-make" "release-v3.1.1" which is not present in the manifest data.
+WARNING:"CYW920829-VR" "latest-v1.X" requires "recipe-make-cat1b" "release-v2.1.0" which is not present in the manifest data.
+WARNING:"CYW920829M2EVK-02" "latest-v1.X" requires "core-make" "release-v3.1.1" which is not present in the manifest data.
+WARNING:"CYW920829M2EVK-02" "latest-v1.X" requires "recipe-make-cat1b" "release-v2.1.0" which is not present in the manifest data.
+WARNING:"DEV_KIT_NAC1080" "release-v0.5.0" requires "mtb-pdl-cat7" "latest-v1.X" which is not present in the manifest data.
+WARNING:"DEV_KIT_NAC1080" "release-v0.5.0" requires "recipe-make-cat7" "latest-v1.X" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "core-lib" "release-v1.4.2" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "mtb-hal-cat1" "release-v2.7.0" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "mtb-pdl-cat1" "release-v3.600.0" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "recipe-make-cat1b" "release-v2.4.0" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "emeeprom" "release-v2.30.0" which is not present in the manifest data.
+WARNING:"KIT_PSOCC3_MOTOR_CTRL" "release-v1.5.0" requires "retarget-io" "release-v1.6.0" which is not present in the manifest data.
+WARNING:Found unknown depender "ml-middleware" "release-v2.0.1" in the dependency manifest data.
+
+Starting to refresh dependencies for project 'motor_ctrl'.
+Refreshed all dependencies for project 'motor_ctrl'.
+0 error(s), 17 warning(s)
+Successfully acquired the information.
+Requested to remove the asset 'TARGET_XMC4400-MOTOR-CTRL-RELEASE'.
+Starting to refresh dependencies for project 'motor_ctrl'.
+Refreshed all dependencies for project 'motor_ctrl'.
+Starting to refresh dependencies for project 'motor_ctrl'.
+Refreshed all dependencies for project 'motor_ctrl'.
+
+Starting to refresh dependencies for project 'motor_ctrl'.
+Refreshed all dependencies for project 'motor_ctrl'.
+
+Changelog for project "motor_ctrl_app":
+core-lib version release-v1.4.1 added
+core-make version release-v3.2.2 added
+mtb-xmc-emeeprom version release-v1.0.0 added
+mtb-xmclib-cat3 version release-v4.3.0 added
+recipe-make-cat3 version release-v2.1.1 added
+retarget-io-cat3 version release-v1.1.0 added
+cmsis version release-v5.8.0 added
+device-db version release-v4.11.1 added
+TARGET_XMC4400-MOTOR-CTRL-RELEASE version release-v1.5.0 removed
+Importing custom BSP folder C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/TARGET_REF_MTR_2KW_100VGAN into TARGET_REF_MTR_2KW_100VGAN
+
+Click "Update" to commit the changesUpdating application "motor_ctrl_app" ...
+Starting to commit changes to the filesystem and project 'motor_ctrl'.
+Removed the file 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/deps/TARGET_XMC4400-MOTOR-CTRL-RELEASE.mtb'.
+Writing mtb file for asset 'core-lib' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'core-make' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'mtb-xmc-emeeprom' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'mtb-xmclib-cat3' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'recipe-make-cat3' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'retarget-io-cat3' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'cmsis' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Writing mtb file for asset 'device-db' to the folder 'C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/libs'.
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/motor-ctrl-lib/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/mtb-xmc-emeeprom/release-v1.0.0 -c advice.detachedHead=false checkout release-v1.0.0 --force
+HEAD is now at 1a7a9a1 sync 'core-make.zip' (repo/mtbide/make-infrastructure/release/core-make-3.2.2/4739)
+
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/core-make/release-v3.2.2 -c advice.detachedHead=false checkout release-v3.2.2 --force
+Finished processing core-make
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/mtb-xmclib-cat3/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
+HEAD is now at 99465d55 sync 'core-lib.zip' (repo/bsp_csp/release/pse84-psvp-cr-p5/34367)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/core-lib/release-v1.4.1 -c advice.detachedHead=false checkout release-v1.4.1 --force
+Finished processing core-lib
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/recipe-make-cat3/release-v2.1.1 -c advice.detachedHead=false checkout release-v2.1.1 --force
+HEAD is now at 136f476 sync 'mtb-xmc-emeeprom.zip' (repo/mtb-xmc-emeeprom/develop/227)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/mtb-xmc-emeeprom/release-v1.0.0 -c advice.detachedHead=false checkout release-v1.0.0 --force
+Finished processing mtb-xmc-emeeprom
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/retarget-io-cat3/release-v1.1.0 -c advice.detachedHead=false checkout release-v1.1.0 --force
+HEAD is now at 8bface2 Release -v1.5.0 - 02
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/motor-ctrl-lib/release-v4.5.0 -c advice.detachedHead=false checkout release-v4.5.0 --force
+Finished processing motor-ctrl-lib
+Starting: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
+HEAD is now at d765953 sync 'recipe-make-cat3.zip' (repo/mtbide/make-infrastructure/release/ModusToolbox-3.1-patch-release/4648)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/recipe-make-cat3/release-v2.1.1 -c advice.detachedHead=false checkout release-v2.1.1 --force
+Finished processing recipe-make-cat3
+Starting: git -C C:/Users/xiaol/.modustoolbox/global/device-db/release-v4.11.1 -c advice.detachedHead=false checkout release-v4.11.1 --force
+HEAD is now at 
+517deed sync 'retarget-io-cat3.zip' (repo/bsp_csp/develop/33426)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/retarget-io-cat3/release-v1.1.0 -c advice.detachedHead=false checkout release-v1.1.0 --force
+Finished processing retarget-io-cat3
+HEAD is now at f4ece2b sync 'cmsis.zip' (repo/cmsis/develop/50)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/cmsis/release-v5.8.0 -c advice.detachedHead=false checkout release-v5.8.0 --force
+Finished processing cmsis
+HEAD is now at ecf4b49e3 sync 'device-db.zip' (repo/device-db/release/device-db-v4.11.1/5194)
+Success: git -C C:/Users/xiaol/.modustoolbox/global/device-db/release-v4.11.1 -c advice.detachedHead=false checkout release-v4.11.1 --force
+Finished processing device-db
+HEAD is now at a792050 sync 'mtb-xmclib-cat3.zip' (repo/mtb-xmclib-cat3/rel/mtb-xmclib-cat3-4.3.0/4408)
+Success: git -C C:/Users/xiaol/mtw32_matchbox_150/mtb_shared/mtb-xmclib-cat3/release-v4.3.0 -c advice.detachedHead=false checkout release-v4.3.0 --force
+Finished processing mtb-xmclib-cat3
+Successfully committed changes to the project 'motor_ctrl'.
+0 error(s), 0 warning(s)
+Successfully updated application "motor_ctrl_app"
+Updating Launch Configurations ...
+Calling "make eclipse" ...
+Tools Directory: C:/Users/xiaol/ModusToolbox/tools_3.2/
+Searching installed tools in progress...
+Searching installed tools complete
+Python 3 was not found in the user's PATH and it was not explicitly defined in the CY_PYTHON_PATH variable. This target requires a python 3 installation. You can obtain python 3 from "https://www.python.org" or you may obtain it using the following alternate methods.  Windows: Windows Store macOS: brew install python3  Linux (Debian/Ubuntu): sudo apt-get install python3  
+
+
+Initializing build: motor_ctrl Custom REF_MTR_2KW_100VGAN GCC_ARM
+Prebuild operations complete
+Auto-discovery in progress...
+Auto-discovery complete
+Commencing build operations...
+Tools Directory: C:/Users/xiaol/ModusToolbox/tools_3.2/
+Constructing build rules...
+Build rules construction complete
+==============================================================================
+= Building application =
+==============================================================================
+Generating compilation database file...
+-> C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/Build/TARGET-GCC/CustomRFO/compile_commands.json
+Compilation database file generation complete
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.cproject
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.project
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.mtbLaunchConfigs/motor_ctrl_app Attach (JLink).launch
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.mtbLaunchConfigs/motor_ctrl_app Debug (JLink).launch
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.mtbLaunchConfigs/motor_ctrl_app Erase (JLink).launch
+Generated C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/.mtbLaunchConfigs/motor_ctrl_app Program (JLink).launch
+Instructions:
+1. Open Eclipse IDE for ModusToolbox
+2. Select 'Import Existing Application In-Place' from the QuickPanel
+3. Browse to the application root directory
+"make eclipse" succeeded
+
+Starting to refresh dependencies for project 'motor_ctrl'.
+Refreshed all dependencies for project 'motor_ctrl'.
+
+Summary:
+Successfully updated application "motor_ctrl_app"
+Successfully refreshed dependencies.
+Done.

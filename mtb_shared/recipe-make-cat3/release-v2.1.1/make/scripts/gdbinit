@@ -1,0 +1,17 @@
+# Core port
+target remote:2331
+
+# Open all memory
+set mem inaccessible-by-default off
+
+# Load the executable
+# load <LOCATION OF ELF FILE>
+
+# Reset device
+monitor reset
+
+# Set temporary breakpoint at main
+tbreak main
+
+# Continue program execution
+continue

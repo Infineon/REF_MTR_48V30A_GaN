@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            &&_MTB_CORE__CFLAGS&&
+        ],
+        "mtbDefaultIncludePath": [
+            &&_MTB_CORE__INCLUDE_LIST&&
+        ],
+        "mtbDefaultDefines": [
+            &&_MTB_CORE__DEFINE_LIST&&
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "&&_MTB_CORE__CC&&",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "&&_MTB_CORE__VSCODE_CDB_FILE&&",
+            "intelliSenseMode": "&&_MTB_CORE__VSCODE_INTELLISENSE_MODE&&",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}

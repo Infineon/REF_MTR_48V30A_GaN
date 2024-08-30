@@ -1,0 +1,24 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}&&_MTB_RECIPE__SEARCH_DIRS&&
+	],
+	"settings": {
+		//mtb//  If this project will be shared with multiple users, the
+		//mtb//  modustoolbox.toolsPath property must be placed in user settings
+		//mtb//  file instead of this file.  The user settings file location for
+		//mtb//  VSCode depends on your OS:
+		//mtb//
+		//mtb//	  Windows: %APPDATA%\Code\User\settings.json
+		//mtb//	  macOS  : $HOME/Library/Application Support/Code/User/settings.json
+		//mtb//	  Linux  : $HOME/.config/Code/User/settings.json
+		//mtb//
+		"modustoolbox.toolsPath": "&&_MTB_RECIPE__MTB_PATH&&",
+		"cortex-debug.armToolchainPath": "&&_MTB_RECIPE__GCC_BIN_DIR&&",
+		"cortex-debug.openocdPath": "${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__OPENOCD_EXE_DIR_RELATIVE&&"
+	},
+	"extensions": {
+		"recommendations": [ "marus25.cortex-debug", "ms-vscode.cpptools", "dan-c-underwood.arm" ]
+	}
+}

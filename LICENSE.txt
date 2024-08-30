@@ -1,0 +1,34 @@
+License Terms and Copyright Information Infineon code
+ 
+ Copyright (c) 2016, Infineon Technologies AG All rights reserved. 
+ 
+ Redistribution and use in source and binary forms, with or without modification, are permitted provided that the following conditions are met: 
+ - Redistributions of source code must retain the above copyright notice, this list of conditions and the following disclaimer. 
+ - Redistributions in binary form must reproduce the above copyright notice, this list of conditions and the following disclaimer in the documentation 
+   and/or other materials provided with the distribution. 
+ - Neither the name of the copyright holders nor the names of its contributors may be used to endorse or promote products derived from this software 
+   without specific prior written permission. 
+ 
+ THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS" AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, 
+ THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS
+ BE LIABLE FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE 
+ GOODS OR SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT 
+ LIABILITY, OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+ 
+ To improve the quality of the software, users are encouraged to share modifications, enhancements or bug fixes with Infineon Technologies AG (support@infineon.com).  
+
+ Legal Disclaimer 
+ The information given in this document shall in no event be regarded as a guarantee of conditions or characteristics. With respect to any examples or hints given herein, 
+ any typical values stated herein and/or any information regarding the application of the device, 
+ Infineon Technologies hereby disclaims any and all warranties and liabilities of any kind, including without limitation, warranties of non-infringement of intellectual property rights of any third party. 
+
+ Information
+ For further information on technology, delivery terms and conditions and prices, please contact the nearest Infineon Technologies Office (www.infineon.com). 
+
+  Warnings
+  Due to technical requirements, components may contain dangerous substances. For information on the types in question, please contact the nearest Infineon Technologies Office. 
+  Infineon Technologies components may be used in life-support devices or systems only with the express written approval of Infineon Technologies, 
+  if a failure of such components can reasonably be expected to cause the failure of that life-support device or system or to affect the safety or effectiveness of that device or system. 
+  Life support devices or systems are intended to be implanted in the human body or to support and/or maintain and sustain and/or protect human life. 
+  If they fail, it is reasonable to assume that the health of the user or other persons may be endangered.    
+ 
