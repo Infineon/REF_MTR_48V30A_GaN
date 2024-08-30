@@ -1,0 +1,37 @@
+{
+    "version": 4,
+    "env": {
+        "mtbCompilerArgs": [
+            "-Ofast","-Wno-maybe-uninitialized","-gdwarf-3","-c","-mcpu=cortex-m4","--specs=nano.specs","-mfloat-abi=hard","-mfpu=fpv4-sp-d16","-mthumb","-ffunction-sections","-fdata-sections","-ffat-lto-objects","-g","-Wall","-pipe"
+        ],
+        "mtbDefaultIncludePath": [
+            "bsps/TARGET_REF_MTR_2KW_100VGAN","bsps",".","bsps/TARGET_REF_MTR_2KW_100VGAN/config","bsps/TARGET_REF_MTR_2KW_100VGAN/config/GeneratedSource","../mtb_shared/motor-ctrl-lib/release-v4.5.0/HwInterface","../mtb_shared/motor-ctrl-lib/release-v4.5.0","../mtb_shared/motor-ctrl-lib/release-v4.5.0/OperationalCode","../mtb_shared/motor-ctrl-lib/release-v4.5.0/ThirdPartyLib/probescope","../mtb_shared/motor-ctrl-lib/release-v4.5.0/ThirdPartyLib","../mtb_shared/cmsis/release-v5.8.0/Core/Include","../mtb_shared/cmsis/release-v5.8.0/Core","../mtb_shared/cmsis/release-v5.8.0","../mtb_shared/core-lib/release-v1.4.1/include","../mtb_shared/core-lib/release-v1.4.1","../mtb_shared/mtb-xmc-emeeprom/release-v1.0.0/source","../mtb_shared/mtb-xmc-emeeprom/release-v1.0.0","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/CMSIS/Infineon/COMPONENT_XMC4200/Include","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/CMSIS/Infineon/COMPONENT_XMC4200","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/CMSIS/Infineon","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/CMSIS","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/XMCLib/inc","../mtb_shared/mtb-xmclib-cat3/release-v4.3.0/XMCLib","../mtb_shared/retarget-io-cat3/release-v1.1.0"
+        ],
+        "mtbDefaultDefines": [
+            "BENCH_TEST","COMPONENT_CAT3","COMPONENT_CM4","COMPONENT_CM4_0","COMPONENT_Custom","COMPONENT_GCC_ARM","COMPONENT_HARDFP","COMPONENT_MW_CMSIS","COMPONENT_MW_CORE_LIB","COMPONENT_MW_CORE_MAKE","COMPONENT_MW_MOTOR_CTRL_LIB","COMPONENT_MW_MTB_XMCLIB_CAT3","COMPONENT_MW_MTB_XMC_EMEEPROM","COMPONENT_MW_RECIPE_MAKE_CAT3","COMPONENT_MW_RETARGET_IO_CAT3","COMPONENT_REF_MTR_2KW_100VGAN","COMPONENT_XMC4200","COMPONENT_XMC42XX","CORE_NAME_CM4_0=1","CTRL_METHOD_RFO","CY_APPNAME_motor_ctrl","CY_SUPPORTS_DEVICE_VALIDATION","CY_TARGET_BOARD=REF_MTR_2KW_100VGAN","TARGET_REF_MTR_2KW_100VGAN","XMC4200_Q48x256"
+        ]
+    },
+    "configurations": [
+        {
+            "name": "MTB",
+            "compilerPath": "C:/Users/xiaol/ModusToolbox/tools_3.2/gcc/bin/arm-none-eabi-gcc",
+            "compilerArgs": [
+                "${mtbCompilerArgs}"
+            ],
+            "compileCommands": "C:/Users/xiaol/mtw32_matchbox_150/motor_ctrl_app/Build/TARGET-GCC/CustomRFO/compile_commands.json",
+            "intelliSenseMode": "gcc-arm",
+            "cStandard": "c99",
+            "cppStandard": "c++11",
+            "includePath": [
+                "${mtbDefaultIncludePath}"
+            ],
+            "browse": {
+                "limitSymbolsToIncludedHeaders": true,
+                "databaseFilename": ""
+            },
+            "defines": [
+                "${mtbDefaultDefines}"
+            ]
+        }
+    ]
+}

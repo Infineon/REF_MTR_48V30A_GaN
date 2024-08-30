@@ -1,0 +1,1 @@
+Copy the IAR files from the appropriate target folder to application folder.

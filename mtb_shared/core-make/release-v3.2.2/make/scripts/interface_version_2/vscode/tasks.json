@@ -1,0 +1,81 @@
+{
+    // See https://go.microsoft.com/fwlink/?LinkId=733558
+    // for the documentation about the tasks.json format
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build",
+            "type": "process",
+            "command": "bash",
+            "args": [
+                "--norc",
+                "-c",
+                "make -j&&_MTB_CORE___VSCODE_BUILD_NUM_PROCESSOR&& build &&_MTB_CORE__IDE_OUTPUT_SYNC&&"
+            ],
+
+            "windows" : {
+                "command": "${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/bash.exe",
+                "args": [
+                    "--norc",
+                    "-c",
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/make.exe -j&&_MTB_CORE___VSCODE_BUILD_NUM_PROCESSOR&& build &&_MTB_CORE__IDE_OUTPUT_SYNC&&"
+                ]
+            },
+            "problemMatcher": "$gcc",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Rebuild",
+            "dependsOrder": "sequence",
+            "dependsOn" : [ "Clean", "Build" ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Clean",
+            "type": "process",
+            "command": "bash",
+            "args": [
+                "--norc",
+                "-c",
+                "make clean"
+            ],
+
+            "windows" : {
+                "command": "${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/bash.exe",
+                "args": [
+                    "--norc",
+                    "-c",
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/make.exe clean"
+                ]
+            },
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            }
+        },
+        {
+            "label": "Tool: Library Manager",
+            "type": "process",
+            "command": "bash",
+            "args": [
+                "--norc",
+                "-c",
+                "make modlibs MTB__JOB_BACKGROUND="
+            ],
+            "windows" : {
+                "command": "${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/bash.exe",
+                "args": [
+                    "--norc",
+                    "-c",
+                    "export PATH=/bin:/usr/bin:$PATH ; ${config:modustoolbox.toolsPath}/&&_MTB_RECIPE__MODUS_SHELL_BASE&&/bin/make.exe modlibs MTB__JOB_BACKGROUND="
+                ]
+            }
+        }
+    ]
+}

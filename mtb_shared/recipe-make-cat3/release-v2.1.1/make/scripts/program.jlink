@@ -1,0 +1,5 @@
+Connect
+LoadFile &&PROG_FILE&& 0 reset
+Reset
+Go
+Exit

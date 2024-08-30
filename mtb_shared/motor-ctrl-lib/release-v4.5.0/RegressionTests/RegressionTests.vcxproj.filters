@@ -1,0 +1,255 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="SIL Wrappers">
+      <UniqueIdentifier>{f8628643-a5ef-4757-8d34-676aaa06e39e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIL Wrappers\Header Files">
+      <UniqueIdentifier>{342faca5-6e7c-4445-a23b-f9412a665e03}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SIL Wrappers\Source Files">
+      <UniqueIdentifier>{d76d0246-9850-40c0-9989-3f0e62a31a8c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models">
+      <UniqueIdentifier>{5acf49e7-bd1e-4230-8d01-e3ff9e03c008}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Header Files">
+      <UniqueIdentifier>{e9a1d7bc-2d66-47bf-8f62-dea5ee1e1cc0}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Models\Source Files">
+      <UniqueIdentifier>{8787faee-7544-4720-a50e-f0cc29e97d62}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests">
+      <UniqueIdentifier>{f50f378b-af9d-4257-a80b-60ebe6dedfdd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Header Files">
+      <UniqueIdentifier>{562bad3d-756a-46ad-9384-c17ccb71edc9}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Tests\Source Files">
+      <UniqueIdentifier>{f2dbfb69-0c74-4cca-907f-003ba7700ae6}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="SILAuxFcns.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapCtrl.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapFeedback.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapGetParams.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapInv.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapLoad.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SILWrapMotor.cpp">
+      <Filter>SIL Wrappers\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CBLDC.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDyno.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CFeedback.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CHallSensor.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CLoad.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMechLoad.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CInverter.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPMSM.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CPotentiometer.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CSysSim.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CMotor.cpp">
+      <Filter>Models\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxMethods.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AuxMethodTemplates.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="BiquadTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CDynoTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrModeBlockCommHallTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrModeFOCAlignStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrModeFOCHallTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrModeFOCHighFreqStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CurrModeFOCSixPulseStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FcnExeHandlerTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FieldWeakeningTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="FaultTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GeneralFcnsTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HallSensorTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="HighFreqInjTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorI2tTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ObserverTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="PLLTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="RegularCurrLimiterTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="ResonantFiltTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SixPulseInjTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SlidingModeCurrLimiterTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeBlockCommHallTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeFOCAlignStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeFOCHallTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeFOCHighFreqStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeFOCSixPulseStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeFOCVoltStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrqModeFOCAlignStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrqModeFOCHighFreqStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="TrqModeFOCSixPulseStartupTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="VoltModeOpenLoopTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="MotorProfilerTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="SpeedModeTrapCommHallTest.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GenParamDefaultValues.cpp">
+      <Filter>Tests\Source Files</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="SILAuxFcns.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapCtrl.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapFeedback.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapGetParams.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapInv.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapLoad.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="SILWrapMotor.h">
+      <Filter>SIL Wrappers\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CBLDC.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CDyno.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CFeedback.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CHallSensor.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CInverter.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CLoad.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMechLoad.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CMotor.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPMSM.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CPotentiometer.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CSysSim.h">
+      <Filter>Models\Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AuxMethods.h">
+      <Filter>Tests\Header Files</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
